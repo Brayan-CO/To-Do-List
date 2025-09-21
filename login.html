@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+    <h1 id="app-title" class="app-title">ToDo App</h1>
+    </header>
+
+    <section class="login" aria-labelledby="login-title">
+      <h2 id="login-title">Iniciar sesión</h2>
+      <form id="loginForm" novalidate>
+        <label>
+          Usuario
+          <input type="text" id="username" name="username"/>
+        </label>
+        <label>
+          Contraseña
+          <input type="password" id="password" name="password" />
+        </label>
+        <button type="submit">Entrar</button>
+        <p id="loginError" class="error" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="login.js"></script>
+</body>
+</html>

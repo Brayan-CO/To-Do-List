@@ -1,0 +1,81 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Título de la aplicación */
+.app-title {
+    font-size: 36px;
+    color: #1c86e9;
+}
+
+/* Contenedor  */
+.container {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+/* formulario */
+.login {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+/* Título formulario */
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Campos de texto */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botón de envío */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para mensajes de error */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+

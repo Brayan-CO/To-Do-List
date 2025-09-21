@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <header>
+    <h1>Mis tareas</h1>
+    <button id="logout-btn">Cerrar sesión</button>
+  </header>
+
+  <main>
+    <div id="message" aria-live="polite"></div>
+
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Escribe una nueva tarea..." required>
+      <button type="submit">Agregar</button>
+    </form>
+
+    <ul id="todo-list"></ul>
+  </main>
+
+  <script src="to_do_list.js"></script>
+</body>
+</html>
